@@ -1,0 +1,58 @@
+/* nav區塊 */
+
+.logo {
+  width: 129px;
+}
+
+.person:hover {
+  background: var(--primary-200);
+}
+
+.nav-item-link:hover {
+  color: var(--primary-400);
+}
+
+.nav-item-link:focus {
+  color: var(--primary-400);
+}
+
+/* btn */
+
+.btn-l {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid var(--neutral-900);
+  border-radius: var(--radius-sm);
+  font-family: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  font-weight: var(--fw-medium);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.btn-neutral-filled {
+  color: var(--neutral-white);
+  background: var(--neutral-900);
+}
+
+/* discount CTA */
+
+.discount-btn:hover {
+  background: var(--neutral-700);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.discount-btn:focus {
+  background: var(--neutral-700);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* brand story */
+
+.story-item-txt:hover {
+  color: blue;
+  border-bottom: 1px solid blue;
+}
