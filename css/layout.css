@@ -1,6 +1,6 @@
 /* header區塊 */
 .header-bg-image {
-  background-image: url(/img/brand_story.png);
+  background-image: url(img/brand_story.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
